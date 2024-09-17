@@ -1,0 +1,46 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      spacing: {
+        normal: 60,
+      },
+      fontFamily: {
+        poppinsRegular: "Poppins_400Regular",
+        poppinsLight: "Poppins_300Light",
+        poppinsMedium: "Poppins_500Medium",
+        poppinsSemiBold: "Poppins_600SemiBold",
+        poppinsBold: "Poppins_700Bold",
+        poppinsExtraBold: "Poppins_800ExtraBold",
+      },
+      colors: {
+        customPurple: "#8F7DE4",
+        customPurpleDark: "#444094",
+        customMainColor: "#35AC7E",
+        customMainColorLight: "#246a69",
+        customMainColorLighter: "#399970",
+        customMainColorDark: "#076969",
+        customMainColorNight: "#19615f",
+        customMainColorDarkMode: "#27694d",
+        customMainColorOffset: "#47a4a9",
+        customMainColorGold: "#fec55b",
+        customWhite: "#fff",
+        customBlack: "#000",
+        customPendingColor: "#e89913",
+        customSuccessColor: "#32dd5d",
+        customRed: "#ff0000",
+        customGray50: "#F3F3F3",
+        customGray100: "#e7e8e7",
+        customGray200: "#c4c5c3",
+        customGray300: "#a0a29f",
+        customGray400: "#787a76",
+        customGray500: "#646663",
+        customGray600: "#50524f",
+        customGray700: "#3c3d3b",
+        customGrayTransparent: "rgba(0, 0, 0, 0.2)",
+      },
+    },
+  },
+  plugins: [],
+};
